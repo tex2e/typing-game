@@ -1,0 +1,18 @@
+<head>
+  <title>typing-game</title>
+</head>
+
+<body>
+  {{> game}}
+</body>
+
+<template name="game">
+  <p id="targetHiragana">{{ currentWordHiragana }}</p>
+  <p id="targetKanji">{{ currentWordKanji }}</p>
+  <p id="targetRomaji">{{ currentWordRomaji }}</p>
+  <p class="info">
+    Letters count: <span id="score">{{ currentScore }}</span>,
+    Miss count: <span id="miss">{{ currentMiss }}</span>
+  </p>
+  <input type="text" class="textinput" autofocus />
+</template>
