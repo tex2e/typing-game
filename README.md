@@ -5,3 +5,10 @@
 ## Requirements
 
 - meteor
+
+## Run
+
+```
+$ meteor
+$ open http://localhost:3000/
+```
